@@ -1,0 +1,35 @@
+{
+	"folders": {},
+	"connections": {
+		"sqlite_jdbc-18df0ee5331-569926c5a3ebb109": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "H_W_6.sqlite",
+			"save-password": true,
+			"configuration": {
+				"database": "D:\\programmig\\code_pr\\git_repositories\\H_W-6\\H_W_6.sqlite",
+				"url": "jdbc:sqlite:D:\\programmig\\code_pr\\git_repositories\\H_W-6\\H_W_6.sqlite",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Розробка",
+			"color": "255,255,255",
+			"description": "Звичайна база даних для розробки",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": false,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 3600
+		}
+	}
+}
